@@ -18,7 +18,7 @@ npm install -y ingizo
 
 Normalize a column of data between the interval 0-1 using min max normalization
 
-`Ingizo.normalize(col : array, min : float (optional) , max : float (optional) )`
+`*Ingizo.normalize(col : array, min : float (optional) , max : float (optional) )*`
 
 ```
 let data = [1,2,3,4,5];
@@ -33,7 +33,7 @@ output: [ 0, 0.25, 0.5, 0.75, 1 ]
 
 standardize a column of data, setting mean 0, and shifting data points based on variance
 
-`Ingizo.standardize(col : array)`
+`*Ingizo.standardize(col : array)*`
 
 ```
 let data = [1,2,3,4,5];
@@ -48,7 +48,7 @@ output: [-1.414213562373095,-0.7071067811865475,0,0.7071067811865475,1.414213562
 
 Perform label encoding on a column of ordinal or nominal data
 
-`Ingizo.label(col : array, categories : array (optional))`
+`*Ingizo.label(col : array, categories : array (optional))*`
 
 ```
 let data = ['hs','bachelors','masters','phd'];
@@ -63,7 +63,7 @@ output: [ 1, 2, 3, 4 ]
 
 Perform one-hot encoding on a column of nominal data
 
-`Ingizo.label(col : array, categories : array (optional))`
+`*Ingizo.label(col : array, categories : array (optional))*`
 
 ```
 let data = ['hs','bachelors','masters','phd'];
@@ -91,6 +91,8 @@ output: [ 67.5,  67.5, 87.5, 87.5, 135, 135, 187.5, 187.5]
 #### CSV encoding
 
 Convert a CSV file of raw data into json object of columns for encoding
+
+`*Ingizo.csv(path : string)*`
 
 Example data: Robototic joints and corresponding position vectors
 
