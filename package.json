@@ -1,0 +1,34 @@
+{
+  "name": "ingizo",
+  "version": "1.0.0",
+  "description": "Feature category encoder for machine learning applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinhagensjr/ingizo.git"
+  },
+  "keywords": [
+    "feature",
+    "feature-encoder",
+    "ml",
+    "machine",
+    "learning",
+    "neural",
+    "networks",
+    "onehot",
+    "encoder",
+    "encode"
+  ],
+  "author": "Kevin Hagens Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinhagensjr/ingizo/issues"
+  },
+  "homepage": "https://github.com/kevinhagensjr/ingizo#readme",
+  "dependencies": {
+    "csv": "^6.2.5"
+  }
+}
