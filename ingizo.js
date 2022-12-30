@@ -105,8 +105,4 @@ class Ingizo{
     }
 }
 
-(async () => {
-    const ingizo = new Ingizo();
-    let data = await ingizo.csv('./test.csv');
-    console.log(data);
-})();
+module.exports = new Ingizo();
